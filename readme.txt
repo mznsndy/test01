@@ -11,3 +11,15 @@ git init
 git add readme.txt 
 git commit -m  "这是提示"
 
+#打印最近3次提交历史
+git log
+
+#记录提交和重置的命令，最前面是版本id
+git reflog
+
+#回退到某个版本，HEAD^表示上个版本 ,HEAD^^表示上上个版本。 
+git reset --hard HEAD^
+git reset --hard 版本id
+
+
+
